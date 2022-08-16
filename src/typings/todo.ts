@@ -6,7 +6,7 @@ export enum TODO_PRIORITY {
 
 export interface ITodo {
   readonly id: number;
-  readonly priority: keyof typeof TODO_PRIORITY;
+  priority: keyof typeof TODO_PRIORITY;
   content: string;
   completed: boolean;
 }
